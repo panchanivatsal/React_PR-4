@@ -1,0 +1,44 @@
+
+th{
+    border-bottom:  2px solid rgb(200, 100, 100);
+    color: aliceblue;
+
+}
+body{
+    background-color: black;
+    font-family: 'Dancing Script', cursive
+}
+
+input{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 255, 42);
+    font-family: 'Dancing Script', cursive;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    color: gold;
+    outline: none;
+}
+button{
+    background-color: gold;
+    border-radius: 50% !important;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: none !important;
+    transition: all 1.2s;
+    cursor: pointer;
+}
+button:focus{
+    background-color: aliceblue;
+    color: black;
+    transition: all 1.2s;
+    border-radius: 20% !important;
+}
+i{
+    color: crimson;
+    text-align: center;
+    line-height: 20px;
+}
